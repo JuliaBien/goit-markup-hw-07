@@ -4,8 +4,8 @@
 }
 
 body {
-  font-family: 'Roboto', 'Verdana', sans-serif;
-  color: var(--first-color-text);
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 header {
