@@ -56,9 +56,7 @@ button:hover {
 .logo .highlight {
   color: var(--second-color-text);
 }
-.link {
-  text-decoration: none;
-}
+
 .address {
   color: #434455;
 }
