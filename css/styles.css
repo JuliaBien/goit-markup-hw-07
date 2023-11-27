@@ -11,10 +11,11 @@ body {
 header {
   background-color: #ffffff;
 }
-.menu {
+.list {
   font-weight: 500;
   color: var(--first-color-text);
   line-height: 1.5;
+  list-style: none;
 }
 h2 {
   font-weight: 500;
@@ -36,6 +37,9 @@ button {
   font-weight: 500;
   line-height: 1.5;
 }
+span {
+  color: #2e2f42;
+}
 a:active,
 a:hover {
   color: #404bbf;
@@ -52,6 +56,17 @@ button:hover {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+.first-point-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text);
+}
+.first-point-list:hover,
+.first-point-list:active {
+  color: #404bbf;
 }
 .link {
   text-decoration: none;
