@@ -1,0 +1,65 @@
+:root {
+  --first-color-text: #2e2f42;
+  --second-color-text: #4d5ae5;
+}
+
+body {
+  font-family: 'Roboto', 'Verdana', sans-serif;
+  color: var(--first-color-text);
+}
+header {
+  background-color: #ffffff;
+}
+.menu {
+  font-weight: 500;
+  color: var(--first-color-text);
+  line-height: 1.5;
+}
+h2 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+footer {
+  background-color: var(--first-color-text);
+}
+button {
+  background-color: var(--second-color-text);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+}
+a:active,
+a:hover {
+  color: #404bbf;
+}
+button:hover {
+  background-color: #9747ff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+}
+.logo .highlight {
+  color: var(--second-color-text);
+}
+.address {
+  color: #434455;
+}
+
+.img-subscription {
+  color: #434455;
+}
+.footer-description {
+  color: white;
+}
