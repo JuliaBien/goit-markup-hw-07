@@ -27,9 +27,7 @@ a {
 p {
   line-height: 1.5;
 }
-footer {
-  background-color: var(--first-color-text);
-}
+
 button {
   background-color: var(--second-color-text);
   color: #ffffff;
@@ -157,4 +155,15 @@ button:hover {
 }
 .team-member {
   background-color: #ffffff;
+}
+.footer-main {
+  background-color: var(--first-color-text);
+}
+.highlight-footer {
+  color: #f4f4fd;
+}
+.p-footer-main {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
