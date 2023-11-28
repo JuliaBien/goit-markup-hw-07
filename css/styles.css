@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -24,10 +24,6 @@ h2 {
 a {
   text-decoration: none;
 }
-p {
-  line-height: 1.5;
-}
-
 button {
   background-color: var(--second-color-text);
   color: #ffffff;
