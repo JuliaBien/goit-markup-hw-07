@@ -79,7 +79,8 @@ button:hover {
 }
 
 .img-subscription {
-  color: #434455;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .footer-description {
   color: white;
@@ -181,4 +182,14 @@ button:hover {
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+.second-header-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.page-footer {
+  background-color: #2e2f42;
 }
