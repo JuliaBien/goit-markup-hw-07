@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,45 +18,50 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo link" href="./index.html"
-          >Web<span class="highlight">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a class="point-list link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="point-list link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="point-list link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a class="point-address link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="point-address link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-main container">
+        <nav class="nav-main">
+          <a class="logo link" href="./index.html"
+            >Web<span class="highlight">Studio</span></a
+          >
+          <ul class="list menu-nav">
+            <li>
+              <a class="menu-item link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="menu-item link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="menu-item link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list menu-address">
+            <li>
+              <a class="address-item link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-item link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section class="section-first-main">
-        <h1 class="header-main">Effective Solutions for Your Business</h1>
+      <section class="section first-main container">
+        <h1 class="first-section-header-main">
+          Effective Solutions<br />
+          for Your Business
+        </h1>
         <button type="button" class="button-main">Order Service</button>
       </section>
-      <section>
+      <section class="section container">
         <h2 class="second-section-header-main">header</h2>
-        <ul class="list">
+        <ul class="second-section-list-main list">
           <li>
             <h3 class="third-header-main">Strategy</h3>
             <p class="p-third-header-main">
@@ -83,9 +92,9 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section container">
         <h2 class="third-section-header-main">What are we doing</h2>
-        <ul class="list">
+        <ul class="third-section-list-main list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -112,9 +121,9 @@
           </li>
         </ul>
       </section>
-      <section class="section-four-main">
+      <section class="section four-main container">
         <h2 class="four-section-header-main">Our Team</h2>
-        <ul class="list">
+        <ul class="four-section-list-main list">
           <li class="team-member">
             <img
               src="./images/jpg_4.jpg"
@@ -122,8 +131,8 @@
               width="264"
               height="260"
             />
-            <h3 class="third-header-main">Mark Guerrero</h3>
-            <p class="p-third-header-main">Product Designer</p>
+            <h3 class="third-header-main name">Mark Guerrero</h3>
+            <p class="p-third-header-main position">Product Designer</p>
           </li>
           <li class="team-member">
             <img
@@ -132,8 +141,8 @@
               width="264"
               height="260"
             />
-            <h3 class="third-header-main">Tom Ford</h3>
-            <p class="p-third-header-main">Frontend Developer</p>
+            <h3 class="third-header-main name">Tom Ford</h3>
+            <p class="p-third-header-main position">Frontend Developer</p>
           </li>
           <li class="team-member">
             <img
@@ -142,8 +151,8 @@
               width="264"
               height="260"
             />
-            <h3 class="third-header-main">Camila Garcia</h3>
-            <p class="p-third-header-main">Marketing</p>
+            <h3 class="third-header-main name">Camila Garcia</h3>
+            <p class="p-third-header-main position">Marketing</p>
           </li>
           <li class="team-member">
             <img
@@ -152,18 +161,19 @@
               width="264"
               height="260"
             />
-            <h3 class="third-header-main">Daniel Wilson</h3>
-            <p class="p-third-header-main">UI Designer</p>
+            <h3 class="third-header-main name">Daniel Wilson</h3>
+            <p class="p-third-header-main position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer-main">
-      <a class="logo link" href="./index.html"
+    <footer class="footer-main container">
+      <a class="logo logo-footer link" href="./index.html"
         >Web<span class="highlight-footer">Studio</span></a
       >
       <p class="p-footer-main">
-        Increase the flow of customers and sales for your business with digital
+        Increase the flow of customers and<br />
+        sales for your business with digital<br />
         marketing & growth solutions.
       </p>
     </footer>
