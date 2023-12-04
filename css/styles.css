@@ -150,6 +150,9 @@ button:hover {
 .section-second-main {
   padding: 120px 0;
 }
+.section-third-main {
+  padding-bottom: 120px;
+}
 .third-header-main {
   font-weight: 500;
   font-size: 20px;
