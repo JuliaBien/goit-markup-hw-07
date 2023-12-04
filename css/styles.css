@@ -78,7 +78,7 @@ button:hover {
   letter-spacing: 0.03em;
   width: 71px;
   padding: 25.5px 120px 25.5px 0;
-  margin-right: 73px;
+  margin-right: 76px;
 }
 
 .link {
@@ -230,16 +230,15 @@ button:hover {
   background-color: var(--first-color-text);
 }
 .header-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-main {
   display: flex;
+  align-items: center;
 }
 .menu-nav {
   display: flex;
+  flex-direction: row;
 }
 .address {
   display: flex;
@@ -263,6 +262,7 @@ button:hover {
   color: var(--first-color-text);
   margin-right: 40px;
 }
+
 .menu-item:hover,
 .menu-item:focus {
   color: var(--pressed-state);
@@ -319,4 +319,9 @@ button:hover {
 .card-content {
   margin: 32px 0;
   padding: 0 16px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
