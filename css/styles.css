@@ -93,9 +93,10 @@ button:hover {
   font-style: normal;
 }
 
-.img-subscription {
+.card-subscription {
   color: var(--body-text);
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 .footer-description {
   color: var(--white);
@@ -186,7 +187,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
 }
-.footer-main {
+.footer {
   background-color: var(--first-color-text);
   display: flex;
   flex-direction: column;
@@ -194,7 +195,7 @@ button:hover {
 .highlight-footer {
   color: var(--light);
 }
-.p-footer-main {
+.p-footer {
   line-height: 1.5;
   color: var(--light);
   letter-spacing: 0.02em;
@@ -210,6 +211,8 @@ button:hover {
   color: var(--primary-brand);
   background-color: var(--light);
   cursor: pointer;
+  display: inline-block;
+  padding: 12px 24px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -295,4 +298,25 @@ button:hover {
   margin-left: 156px;
   margin-top: 101.5px;
   margin-bottom: 17.5px;
+}
+.first-section-header-portfolio {
+  display: none;
+}
+.buttons-portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 24px;
+}
+.cards-portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+.card-content {
+  margin: 32px 0;
+  padding: 0 16px;
 }
