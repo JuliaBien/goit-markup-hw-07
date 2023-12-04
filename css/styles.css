@@ -109,6 +109,9 @@ button:hover {
   padding: 24px 0;
   margin-right: 40px;
 }
+.menu-address:last-child {
+  margin-right: 0px;
+}
 
 .address-item:hover,
 .address-item:focus {
@@ -261,6 +264,9 @@ button:hover {
   letter-spacing: 0.02em;
   color: var(--first-color-text);
   margin-right: 40px;
+}
+.menu-nav:last-child {
+  margin-right: 0px;
 }
 
 .menu-item:hover,
