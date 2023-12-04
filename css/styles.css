@@ -177,8 +177,9 @@ button:hover {
   color: var(--first-color-text);
   margin-bottom: 72px;
 }
-.four-main {
+.four-section-main {
   background-color: var(--light);
+  padding: 120px 0;
 }
 .four-section-header-main {
   font-size: 36px;
@@ -290,7 +291,10 @@ button:hover {
 }
 .third-section-list-main {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+}
+.third-section-list-main-item {
+  width: calc((100%-48px) / 3);
 }
 .four-section-list-main {
   display: flex;
