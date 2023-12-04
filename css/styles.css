@@ -147,7 +147,7 @@ button:hover {
 .button-main:focus {
   background-color: var(--pressed-state);
 }
-.second-section-main {
+.section-second-main {
   padding: 120px 0;
 }
 .third-header-main {
@@ -280,6 +280,9 @@ button:hover {
 .second-section-list-main {
   display: flex;
   gap: 24px;
+}
+.second-section-list-main-item {
+  width: calc((100%-24px * 3) / 4);
 }
 .third-section-list-main {
   display: flex;
