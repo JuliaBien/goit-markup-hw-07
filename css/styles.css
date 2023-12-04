@@ -238,7 +238,7 @@ button:hover {
 .menu-nav {
   display: flex;
   flex-direction: row;
-  column-gap: 40px;
+  gap: 40px;
 }
 .address {
   display: flex;
@@ -246,7 +246,7 @@ button:hover {
 .menu-address {
   display: flex;
   flex-direction: row;
-  column-gap: 40px;
+  gap: 40px;
 }
 .container {
   max-width: 1158px;
