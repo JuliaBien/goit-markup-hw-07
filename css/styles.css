@@ -303,7 +303,6 @@ button:hover {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding: 0 156px;
 }
 .team-member-description {
   padding: 32px 0;
