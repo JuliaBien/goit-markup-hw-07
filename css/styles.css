@@ -306,7 +306,7 @@ button:hover {
   padding: 0 156px;
 }
 .team-member-description {
-  padding: 32px 16px 32px;
+  padding: 32px 0;
 }
 .logo-footer {
   display: inline-block;
