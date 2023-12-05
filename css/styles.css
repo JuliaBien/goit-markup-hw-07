@@ -202,8 +202,7 @@ button:hover {
 }
 .footer {
   background-color: var(--first-color-text);
-  display: flex;
-  flex-direction: column;
+  padding: 100px 0;
 }
 .highlight-footer {
   color: var(--light);
@@ -212,8 +211,7 @@ button:hover {
   line-height: 1.5;
   color: var(--light);
   letter-spacing: 0.02em;
-  margin-left: 156px;
-  margin-bottom: 100px;
+  max-width: 264px;
 }
 .button-portfolio {
   font-family: 'Roboto', sans-serif;
@@ -310,9 +308,8 @@ button:hover {
   padding: 32px 16px;
 }
 .logo-footer {
-  margin-left: 156px;
-  margin-top: 101.5px;
-  margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .first-section-header-portfolio {
   display: none;
