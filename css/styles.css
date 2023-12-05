@@ -197,7 +197,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
 .footer {
@@ -224,11 +224,14 @@ button:hover {
   cursor: pointer;
   display: inline-block;
   padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--white);
   background-color: var(--pressed-state);
+  border: 1px solid transparent;
 }
 .second-header-portfolio {
   font-weight: 500;
@@ -305,7 +308,7 @@ button:hover {
   padding: 0 156px;
 }
 .team-member-description {
-  padding: 32px 16px;
+  padding: 32px 16px 32px;
 }
 .logo-footer {
   display: inline-block;
@@ -318,7 +321,8 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 .cards-portfolio {
   display: flex;
@@ -336,4 +340,8 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.first-section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
