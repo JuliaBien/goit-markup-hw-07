@@ -91,6 +91,7 @@ button:hover {
   color: var(--body-text);
   letter-spacing: 0.02em;
   margin-top: 8px;
+  font-weight: 400;
 }
 .footer-description {
   color: var(--white);
@@ -98,6 +99,7 @@ button:hover {
 .address-item {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--body-text);
   padding: 24px 0;
@@ -160,14 +162,15 @@ button:hover {
   letter-spacing: 0.02em;
   color: var(--first-color-text);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 .p-third-header-main {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--body-text);
-  text-align: center;
+  text-align: left;
 }
 
 .third-section-header-main {
@@ -199,6 +202,23 @@ button:hover {
   align-items: center;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+}
+.team-member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text);
+  margin-bottom: 8px;
+  text-align: center;
+}
+.p-team-member {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+  text-align: center;
 }
 .footer {
   background-color: var(--first-color-text);
@@ -309,7 +329,14 @@ button:hover {
 }
 .logo-footer {
   display: inline-block;
-  margin-bottom: 16px;
+  color: var(--primary-brand);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 17.5px;
 }
 .buttons-portfolio {
   display: flex;
