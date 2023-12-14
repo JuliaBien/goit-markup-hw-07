@@ -425,10 +425,11 @@ header {
   justify-content: center;
   align-items: center;
 }
-.logo-link:hover,
-.logo-link:focus {
+.social-logo-link:hover,
+.social-logo-link:focus {
   background-color: var(--pressed-state);
 }
+
 .social-logo {
   fill: var(--light);
 }
