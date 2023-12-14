@@ -211,6 +211,8 @@ button:hover {
   align-items: center;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .team-member-name {
   font-weight: 500;
@@ -400,11 +402,33 @@ button:hover {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.social-logo {
-  width: 16px;
-  height: 16px;
+.social-logos-team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 header {
-  box-shadow: 0 1 6 0 var(--first-color-text), 0 1 1 0 var(--first-color-text),
-    0 2 1 0 va(--first-color-text);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.logo-team-members {
+  width: 40px;
+  height: 40px;
+}
+.social-logo-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-brand);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-link:hover,
+.logo-link:focus {
+  background-color: var(--pressed-state);
+}
+.social-logo {
+  fill: var(--light);
 }
