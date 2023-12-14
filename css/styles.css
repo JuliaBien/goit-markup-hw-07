@@ -393,3 +393,11 @@ button:hover {
 .icon-container {
   background-color: var(--light);
 }
+.advantages-icon {
+  width: 64px;
+  height: 64px;
+}
+.social-logo {
+  width: 16px;
+  height: 16px;
+}
