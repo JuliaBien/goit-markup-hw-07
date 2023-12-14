@@ -111,6 +111,7 @@ button:hover {
 }
 
 .section-first-main {
+  max-width: 1440px;
   background-color: var(--first-color-text);
   display: flex;
   flex-direction: column;
@@ -392,10 +393,12 @@ button:hover {
 }
 .icon-container {
   background-color: var(--light);
-}
-.advantages-icon {
-  width: 64px;
-  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .social-logo {
   width: 16px;
