@@ -433,3 +433,32 @@ header {
 .social-logo {
   fill: var(--light);
 }
+.five-section-main {
+  padding: 120px 0;
+}
+.clients-list {
+  display: flex;
+  gap: 24px;
+}
+.client-item {
+  height: 88px;
+  width: calc((100%-120px) / 6);
+}
+.client-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+}
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--pressed-state);
+  color: var(--pressed-state);
+}
+.client-logo {
+  fill: currentColor;
+}
