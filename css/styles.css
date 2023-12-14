@@ -401,3 +401,7 @@ button:hover {
   width: 16px;
   height: 16px;
 }
+header {
+  box-shadow: 0 1 6 0 var(--first-color-text), 0 1 1 0 var(--first-color-text),
+    0 2 1 0 va(--first-color-text);
+}
