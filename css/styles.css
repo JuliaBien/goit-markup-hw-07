@@ -476,7 +476,9 @@ header {
 .container-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+.footer-main {
+  margin-right: 120px;
 }
 .footer-socials-title {
   font-weight: 500;
