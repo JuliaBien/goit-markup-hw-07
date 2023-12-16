@@ -454,7 +454,7 @@ header {
 }
 .client-item {
   height: 88px;
-  width: calc((100%-120px) / 6);
+  width: calc((100% - 120px) / 6);
 }
 .client-link {
   width: 100%;
