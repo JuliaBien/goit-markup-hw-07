@@ -133,6 +133,7 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin: auto;
 }
 .first-section-header-main {
   font-size: 56px;
@@ -472,6 +473,10 @@ header {
 }
 .client-logo {
   fill: currentColor;
+}
+.client-logo:hover,
+.client-logo:focus {
+  fill: var(--pressed-state);
 }
 .container-footer {
   display: flex;
