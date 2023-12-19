@@ -81,6 +81,9 @@ button:hover {
 }
 .card-portfolio-link {
   display: block;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-portfolio-link:hover,
 .card-portfolio-link:focus {
@@ -273,7 +276,7 @@ button:hover {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  transition-property: color background-color border box-shadow;
+  transition-property: color, background-color, border, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -481,7 +484,7 @@ header {
   justify-content: center;
   align-items: center;
   color: #8e8f99;
-  transition-property: border-color color;
+  transition-property: border-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
