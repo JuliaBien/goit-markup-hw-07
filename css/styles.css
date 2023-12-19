@@ -580,8 +580,8 @@ header {
   transform: translate(-50%, -50%) scale(1);
   border-radius: 4px;
   background-color: var(--diary);
-  box-shadow: z wartościami 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn {
@@ -618,7 +618,6 @@ header {
   right: 0;
   width: 100%;
   height: 100%;
-  transform: translateY(100%);
   background-color: var(--primary-brand);
   transition-property: transform;
   transition-duration: 250ms;
@@ -628,7 +627,9 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding: 40px 32px 284px;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  transform: translateY(100%);
 }
 .image-portfolio:hover,
 .image-portfolio:focus,
