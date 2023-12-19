@@ -623,15 +623,15 @@ header {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.image-portfolio:hover .hover-card {
-  transform: translateY(0);
-}
-.hover-card-p {
   color: var(--light);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   padding: 40px 32px 284px;
+}
+.image-portfolio:hover,
+.image-portfolio:focus,
+.hover-card {
+  transform: translateY(0%);
 }
