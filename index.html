@@ -57,7 +57,9 @@
           <h1 class="first-section-header-main">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button-main">Order Service</button>
+          <button type="button" class="button-main" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section-second-main">
@@ -418,5 +420,11 @@
         </div>
       </div>
     </footer>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button close-btn" data-modal-close>X</button>
+      </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
