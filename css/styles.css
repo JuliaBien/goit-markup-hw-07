@@ -343,7 +343,10 @@ button:hover {
 .menu-item:focus {
   color: var(--pressed-state);
 }
-.menu-item::after {
+.active {
+  color: var(--pressed-state);
+}
+.active::after {
   content: '';
   position: absolute;
   left: 0;
@@ -351,6 +354,7 @@ button:hover {
   height: 4px;
   background-color: var(--pressed-state);
   border-radius: 2px;
+  width: 100%;
 }
 
 .second-section-list-main {
@@ -632,8 +636,7 @@ header {
   transform: translateY(100%);
 }
 .image-portfolio:hover,
-.image-portfolio:focus,
-.hover-card {
+.image-portfolio:focus {
   transform: translateY(0%);
 }
 .close-btn-icon {
