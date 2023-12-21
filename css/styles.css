@@ -635,8 +635,8 @@ header {
   padding: 40px 32px;
   transform: translateY(100%);
 }
-.image-portfolio:hover,
-.image-portfolio:focus {
+.image-portfolio:hover .hover-card,
+.image-portfolio:focus .hover-card {
   transform: translateY(0%);
 }
 .close-btn-icon {
