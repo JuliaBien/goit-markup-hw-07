@@ -262,7 +262,7 @@ button:hover {
   line-height: 1.5;
   color: var(--light);
   letter-spacing: 0.02em;
-  max-width: 264px;
+  min-width: 264px;
 }
 .button-portfolio {
   font-family: 'Roboto', sans-serif;
@@ -522,6 +522,7 @@ header {
 .container-footer {
   display: flex;
   align-items: baseline;
+  justify-content: space-evenly;
 }
 .footer-main {
   margin-right: 120px;
@@ -560,6 +561,9 @@ header {
 }
 .footer-social-logo {
   fill: var(--light);
+}
+.footer-socials {
+  margin-right: 120px;
 }
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
@@ -658,6 +662,7 @@ header {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .input-footer {
   width: 264px;
@@ -670,8 +675,29 @@ header {
   letter-spacing: 0.04em;
   padding-left: 16px;
   border-radius: 4px;
-  box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white);
+}
+.button-footer {
+  max-width: 165px;
+  padding: 8px 24px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--primary-brand);
+  border: none;
+  border-radius: 4px;
+}
+.subscribe-icon {
+  margin-left: 16px;
 }
 .modal-form {
   display: flex;
