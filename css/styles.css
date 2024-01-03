@@ -679,7 +679,7 @@ header {
   color: var(--white);
 }
 .button-footer {
-  max-width: 165px;
+  min-width: 165px;
   padding: 8px 24px;
   height: 40px;
   display: flex;
@@ -698,6 +698,9 @@ header {
 }
 .subscribe-icon {
   margin-left: 16px;
+}
+.modal {
+  padding: 72px 24px 24px;
 }
 .modal-form {
   display: flex;
@@ -720,6 +723,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.modal-input-container {
+  margin-bottom: 8px;
 }
 .labels-modal {
   font-family: 'Roboto', sans-serif;
