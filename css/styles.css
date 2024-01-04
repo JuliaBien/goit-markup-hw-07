@@ -741,7 +741,7 @@ header {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus {
+.modal-input:focus-within {
   border-color: var(--primary-brand);
 }
 .svg-modal {
@@ -785,6 +785,18 @@ header {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  fill: transparent;
+}
+.policy-input:checked + .label-modal .checkbox-icon-container {
+  background-color: var(--pressed-state);
+  border: none;
+  fill: var(--light);
 }
 .link-privacypolicy {
   color: var(--primary-brand);
