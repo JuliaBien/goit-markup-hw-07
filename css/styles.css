@@ -743,6 +743,8 @@ header {
 }
 .modal-input:focus-within {
   border-color: var(--primary-brand);
+}
+.modal-input-container:focus-within {
   fill: var(--primary-brand);
 }
 
