@@ -427,6 +427,7 @@
                 name="email"
                 placeholder="E-mail"
                 class="input-footer"
+                required
               />
             </label>
             <button type="submit" class="button-footer">
@@ -458,6 +459,7 @@
                 name="user-name"
                 id="user-name"
                 class="modal-input"
+                required
               />
               <svg class="svg-modal" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"></use>
@@ -472,6 +474,7 @@
                 name="phone_number"
                 id="tel"
                 class="modal-input"
+                required
               />
               <svg class="svg-modal" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -481,7 +484,13 @@
           <div class="modal-inputs">
             <label for="email" class="label-modal">Email</label>
             <div class="modal-input-container">
-              <input type="email" name="email" id="email" class="modal-input" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="modal-input"
+                required
+              />
               <svg class="svg-modal" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
@@ -495,6 +504,7 @@
               rows="5"
               placeholder="Text input"
               class="input-modal-textarea"
+              required
             ></textarea>
           </div>
           <div class="modal-policy-checkbox">
@@ -504,6 +514,7 @@
               id="user-privacy"
               class="policy-input visually-hidden"
               value="true"
+              required
             />
             <label for="user-privacy" class="label-modal"
               ><span class="checkbox-icon-container"
