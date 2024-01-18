@@ -151,7 +151,8 @@ button:hover {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  max-width: 496px;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 .button-main {
@@ -479,12 +480,13 @@ button:hover {
 }
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
 .client-item {
   height: 88px;
-  width: calc((100% - 120px) / 6);
+  flex-basis: calc((100% - 120px) / 2);
 }
 .client-link {
   width: 100%;
@@ -959,8 +961,17 @@ body {
   .team-member {
     flex-basis: calc((100% - 72px) / 2);
   }
+  .first-section-header-main {
+    max-width: 496px;
+  }
+  .client-item {
+    flex-basis: calc((100% - 120px) / 3);
+  }
 }
 @media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
   .second-section-list-main {
     flex-wrap: nowrap;
   }
@@ -984,5 +995,11 @@ body {
   }
   .team-member {
     flex-basis: calc((100% - 72px) / 4);
+  }
+  .clients-list {
+    flex-wrap: nowrap;
+  }
+  .client-item {
+    flex-basis: calc((100% - 120px) / 6);
   }
 }
