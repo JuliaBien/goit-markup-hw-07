@@ -233,7 +233,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(100% - 72px);
+  width: 264px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -518,8 +518,9 @@ button:hover {
 }
 .container-footer {
   display: flex;
-  align-items: baseline;
-  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
 }
 .footer-main {
   margin-right: 120px;
@@ -959,6 +960,7 @@ body {
     text-align: left;
   }
   .team-member {
+    max-width: 264px;
     flex-basis: calc((100% - 72px) / 2);
   }
   .first-section-header-main {
@@ -1001,5 +1003,10 @@ body {
   }
   .client-item {
     flex-basis: calc((100% - 120px) / 6);
+  }
+  .container-footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
   }
 }
