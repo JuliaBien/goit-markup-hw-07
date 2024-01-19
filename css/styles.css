@@ -383,7 +383,8 @@ button:hover {
   padding: 32px 0;
 }
 .logo-footer {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -519,11 +520,14 @@ button:hover {
 .container-footer {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 72px;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .footer-main {
-  margin-right: 120px;
+  text-align: center;
 }
 .footer-socials-title {
   font-weight: 500;
@@ -532,6 +536,7 @@ button:hover {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 .footer-social-item {
   width: 40px;
@@ -561,7 +566,7 @@ button:hover {
   fill: var(--light);
 }
 .footer-socials {
-  margin-right: 120px;
+  text-align: center;
 }
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
@@ -655,13 +660,16 @@ button:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
+  text-align: center;
 }
 .footer-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 .input-footer {
-  width: 264px;
+  width: 398px;
   height: 40px;
   border: 1px solid var(--white);
   background-color: transparent;
@@ -930,6 +938,7 @@ body {
   width: 100%;
   justify-content: flex-end;
 }
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -969,6 +978,26 @@ body {
   .client-item {
     flex-basis: calc((100% - 120px) / 3);
   }
+  .logo-footer {
+    display: inline-block;
+  }
+  .input-footer {
+    width: 264px;
+  }
+  .footer-main {
+    text-align: left;
+  }
+  .footer-socials-title {
+    text-align: left;
+  }
+  .p-subscription {
+    text-align: left;
+  }
+  .container-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
@@ -1006,6 +1035,7 @@ body {
   }
   .container-footer {
     display: flex;
+    flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
   }
