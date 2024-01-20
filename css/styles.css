@@ -486,7 +486,7 @@ button:hover {
 }
 .client-item {
   height: 88px;
-  width: 190px;
+  width: 196px;
 }
 .client-link {
   width: 100%;
@@ -885,8 +885,7 @@ button.menu-toggle.js-close-menu {
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 40px;
-  padding-top: 80px;
-  padding-left: 40px;
+  padding: 80px 0 184px 40px;
 }
 .mobile-nav-main .menu-nav .active::after {
   display: none;
