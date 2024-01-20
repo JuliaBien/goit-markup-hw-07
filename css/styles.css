@@ -987,7 +987,7 @@ button.menu-toggle.js-close-menu {
     max-width: 496px;
   }
   .client-item {
-    flex-basis: calc((100% - 120px) / 3);
+    width: 168px;
   }
   .logo-footer {
     display: inline-block;
@@ -1006,8 +1006,10 @@ button.menu-toggle.js-close-menu {
   }
   .container-footer {
     flex-direction: row;
+    justify-content: left;
     flex-wrap: wrap;
     flex-basis: calc((100% - 24px) / 2);
+    padding-left: 108px;
   }
 }
 @media screen and (min-width: 1200px) {
