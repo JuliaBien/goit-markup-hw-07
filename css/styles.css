@@ -844,9 +844,6 @@ html,
 body {
   width: 100%;
 }
-body {
-  overflow-x: hidden;
-}
 .header {
   display: none;
 }
@@ -960,6 +957,11 @@ button.menu-toggle.js-close-menu {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/background@2x.jpg);
+  }
+}
+@media screen and (min-width: 320px) {
+  body {
+    overflow-x: hidden;
   }
 }
 @media screen and (min-width: 480px) {
