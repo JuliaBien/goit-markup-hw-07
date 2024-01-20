@@ -116,7 +116,6 @@ button:hover {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--body-text);
-  padding: 24px 0;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -315,12 +314,12 @@ button:hover {
 }
 .menu-address {
   display: flex;
-  flex-direction: row;
-  gap: 40px;
+  flex-direction: column;
+  gap: 12px;
 }
 .container {
   width: 100%;
-  max-width: 428px;
+  max-width: 480px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -487,7 +486,7 @@ button:hover {
 }
 .client-item {
   height: 88px;
-  flex-basis: calc((100% - 120px) / 2);
+  width: 190px;
 }
 .client-link {
   width: 100%;
@@ -854,10 +853,12 @@ body {
 .mobile-header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 480px;
+  margin: 0 auto;
 }
 .mobile-header button {
   background-color: transparent;
+  border: none;
 }
 .js-menu-container {
   display: none;
@@ -871,6 +872,15 @@ body {
   background-color: white;
   flex-direction: column;
   flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+button.menu-toggle.js-close-menu {
+  border-radius: 50%;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  fill: none;
 }
 .mobile-nav-main .menu-nav {
   display: flex;
@@ -905,6 +915,7 @@ body {
 }
 .mobile-address .mobile-menu-address .link {
   text-decoration: none;
+  font-style: normal;
 }
 .mobile-address-phone {
   text-decoration: none;
@@ -1038,5 +1049,12 @@ body {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
+  }
+  .menu-address {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .address-item {
+    padding: 24px 0;
   }
 }
