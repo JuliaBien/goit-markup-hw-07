@@ -668,7 +668,7 @@ button:hover {
   justify-content: center;
 }
 .input-footer {
-  width: 398px;
+  width: 320px;
   height: 40px;
   border: 1px solid var(--white);
   background-color: transparent;
@@ -850,7 +850,7 @@ body {
 .mobile-header {
   display: flex;
   justify-content: space-between;
-  width: 480px;
+  width: 100%;
   margin: 0 auto;
 }
 .mobile-header button {
