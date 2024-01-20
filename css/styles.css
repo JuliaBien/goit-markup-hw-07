@@ -486,7 +486,7 @@ button:hover {
 }
 .client-item {
   height: 88px;
-  width: 196px;
+  width: 190px;
 }
 .client-link {
   width: 100%;
@@ -853,10 +853,14 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.mobile-header a.logo {
+  margin-left: 16px;
+}
 .mobile-header button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  margin-right: 16px;
 }
 .js-menu-container {
   display: none;
@@ -884,8 +888,9 @@ button.menu-toggle.js-close-menu {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 40px;
-  padding: 80px 0 184px 40px;
+  gap: 20px;
+  margin-top: 80px;
+  margin-left: 40px;
 }
 .mobile-nav-main .menu-nav .active::after {
   display: none;
@@ -910,6 +915,10 @@ button.menu-toggle.js-close-menu {
   gap: 40px;
   padding: 0 35px 0 40px;
 }
+.mobile-address {
+  margin-top: 142px;
+}
+
 .mobile-address .mobile-menu-address .link {
   text-decoration: none;
   font-style: normal;
