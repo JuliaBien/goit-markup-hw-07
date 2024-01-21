@@ -482,7 +482,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .client-item {
   height: 88px;
@@ -1005,6 +1005,9 @@ button.menu-toggle.js-close-menu {
   }
   .client-item {
     width: 168px;
+  }
+  .clients-list {
+    gap: 24px;
   }
   .logo-footer {
     display: inline-block;
