@@ -133,7 +133,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0;
+  padding: 112px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -189,7 +189,7 @@ button:hover {
 }
 .third-header-main {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-color-text);
@@ -584,7 +584,8 @@ button:hover {
 }
 .modal {
   position: absolute;
-  width: 408px;
+  max-width: 408px;
+  width: 95%;
   min-height: 584px;
   padding: 72px 24px 24px;
   top: 50%;
@@ -668,7 +669,7 @@ button:hover {
   justify-content: center;
 }
 .input-footer {
-  width: 320px;
+  width: 300px;
   height: 40px;
   border: 1px solid var(--white);
   background-color: transparent;
@@ -884,6 +885,9 @@ button.menu-toggle.js-close-menu {
   right: 24px;
   cursor: pointer;
 }
+.mobile-nav-main {
+  flex-grow: 2;
+}
 .mobile-nav-main .menu-nav {
   display: flex;
   flex-direction: column;
@@ -914,9 +918,6 @@ button.menu-toggle.js-close-menu {
   flex-wrap: nowrap;
   gap: 40px;
   padding: 0 35px 0 40px;
-}
-.mobile-address {
-  margin-top: 114px;
 }
 
 .mobile-address .mobile-menu-address .link {
@@ -954,6 +955,11 @@ button.menu-toggle.js-close-menu {
   display: flex;
   width: 100%;
   justify-content: flex-end;
+}
+.mobile-social-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 328px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -1069,5 +1075,11 @@ button.menu-toggle.js-close-menu {
   }
   .address-item {
     padding: 24px 0;
+  }
+  .section-first-main {
+    padding: 188px 0;
+  }
+  .third-header-main {
+    font-size: 20px;
   }
 }
